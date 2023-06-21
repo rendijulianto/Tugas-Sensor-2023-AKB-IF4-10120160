@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NIM: 10120160 | Nama : Rendi Julianto | Kelas : IF-4 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/info"
+        android:title="Info"
+        android:icon="@drawable/ic_info"/>
+    <item
+        android:id="@+id/resto"
+        android:title="Resto"
+        android:icon="@drawable/ic_my_location"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person"/>
+</menu>

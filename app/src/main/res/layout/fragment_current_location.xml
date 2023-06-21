@@ -1,0 +1,121 @@
+<!-- NIM: 10120160 | Nama : Rendi Julianto | Kelas : IF-4 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_country_subdivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wilayah: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_country_subdivision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_municipality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kota: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_municipality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_municipality_subdivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kecamatan: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_municipality_subdivision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Negara: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_freeform_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_freeform_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_coordinate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Koordinat: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_coordinate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </LinearLayout>
+</LinearLayout>
